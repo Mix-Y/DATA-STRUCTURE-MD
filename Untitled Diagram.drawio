@@ -1,1 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2021-11-25T07:58:01.542Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" version="15.8.2" etag="_c18fVUEGLhTIMHc9gKR" type="github"><diagram id="PACh3NY4lxtDlTHQ3ug5">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-25T08:05:58.947Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="SfbAYR8GKqPRlH7rL1JC" version="15.8.2" type="github">
+  <diagram id="PACh3NY4lxtDlTHQ3ug5" name="Page-1">
+    <mxGraphModel dx="1662" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MjHGSWSWJ0mjyfomQsN0-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MjHGSWSWJ0mjyfomQsN0-1" target="MjHGSWSWJ0mjyfomQsN0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MjHGSWSWJ0mjyfomQsN0-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="50" width="106" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MjHGSWSWJ0mjyfomQsN0-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MjHGSWSWJ0mjyfomQsN0-2" target="MjHGSWSWJ0mjyfomQsN0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MjHGSWSWJ0mjyfomQsN0-2" value="Lora主机向服务器发送数据" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="274" y="130" width="266" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MjHGSWSWJ0mjyfomQsN0-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MjHGSWSWJ0mjyfomQsN0-3" target="MjHGSWSWJ0mjyfomQsN0-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MjHGSWSWJ0mjyfomQsN0-3" value="API接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="352" y="220" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MjHGSWSWJ0mjyfomQsN0-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MjHGSWSWJ0mjyfomQsN0-4" target="MjHGSWSWJ0mjyfomQsN0-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="330" />
+              <mxPoint x="570" y="155" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MjHGSWSWJ0mjyfomQsN0-6" value="失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MjHGSWSWJ0mjyfomQsN0-5">
+          <mxGeometry x="-0.2716" y="-3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MjHGSWSWJ0mjyfomQsN0-12" value="成功" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MjHGSWSWJ0mjyfomQsN0-4" target="MjHGSWSWJ0mjyfomQsN0-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MjHGSWSWJ0mjyfomQsN0-4" value="云服务器验证数据" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295.5" y="300" width="223" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MjHGSWSWJ0mjyfomQsN0-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MjHGSWSWJ0mjyfomQsN0-10" target="MjHGSWSWJ0mjyfomQsN0-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MjHGSWSWJ0mjyfomQsN0-10" value="云服务器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="347" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MjHGSWSWJ0mjyfomQsN0-11" value="写入数据库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="347" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
